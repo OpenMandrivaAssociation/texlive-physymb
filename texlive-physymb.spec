@@ -1,3 +1,9 @@
+# revision 22406
+# category Package
+# catalog-ctan /macros/latex/contrib/physymb
+# catalog-date 2011-05-10 11:06:42 +0200
+# catalog-license lppl1.3
+# catalog-version 0.2
 Name:		texlive-physymb
 Version:	0.2
 Release:	1
@@ -46,6 +52,7 @@ notation, elementary particles, and many other things.
 #- source
 %doc %{_texmfdistdir}/source/latex/physymb/physymb.dtx
 %doc %{_texmfdistdir}/source/latex/physymb/physymb.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -56,3 +63,5 @@ notation, elementary particles, and many other things.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
