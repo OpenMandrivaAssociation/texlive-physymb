@@ -6,7 +6,7 @@
 # catalog-version 0.2
 Name:		texlive-physymb
 Version:	0.2
-Release:	6
+Release:	7
 Summary:	Assorted macros for Physicists
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/physymb
