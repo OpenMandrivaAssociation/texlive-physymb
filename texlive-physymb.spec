@@ -9,7 +9,7 @@ Version:	0.2
 Release:	13
 Summary:	Assorted macros for Physicists
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/physymb
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/physymb
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/physymb.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/physymb.doc.tar.xz
